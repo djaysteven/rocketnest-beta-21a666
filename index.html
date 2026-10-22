@@ -40,8 +40,8 @@
   if(matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('rm');
   if(innerWidth<900||matchMedia('(pointer:coarse)').matches)d.classList.add('lite');})();
 </script>
-  <script type="module" crossorigin src="./assets/index-C49-cU3o.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-Dhdsy3uY.css">
+  <script type="module" crossorigin src="./assets/index-C2i0C273.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CAR7PmGm.css">
 </head>
 <body>
 <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
@@ -285,31 +285,48 @@
       <p class="body care" data-i18n="ed.care">A small monthly care plan keeps your editor switched on. If a payment is ever missed, your website stays online. Only editing pauses.</p>
     </div>
     <div class="ed-demo">
-      <p class="ed-label" data-i18n="ed.demo">Interactive illustration · try it</p>
+      <div class="ed-head">
+        <p class="ed-label" data-i18n="ed.demo">Interactive illustration · try it</p>
+        <ol class="ed-steps">
+          <li class="on"><b class="n">1</b><span data-i18n="ed.s1">Type a promo</span></li>
+          <li><b class="n">2</b><span data-i18n="ed.s2">Pick a photo</span></li>
+          <li><b class="n">3</b><span data-i18n="ed.s3">Watch the phone update</span></li>
+        </ol>
+      </div>
       <div class="ed-ui">
         <div class="ed-panel card">
           <div class="ed-ph"><span class="dotlive"></span><b>/admin</b><span class="ed-plan" data-i18n="ed.planOn">Care plan active</span></div>
-          <label class="fld"><span data-i18n="ed.promo">Promo banner</span>
-            <input class="ed-promo" type="text" maxlength="48" value="Happy hour 17:00–19:00 · 2 for 1">
+          <label class="fld"><span class="fld-t"><b class="n">1</b><span data-i18n="ed.promo">Promo banner</span></span>
+            <textarea class="ed-promo" rows="1" maxlength="48" spellcheck="false">Happy hour 17:00–19:00 · 2 for 1</textarea>
           </label>
-          <div class="fld"><span data-i18n="ed.photo">Main photo</span>
+          <div class="fld"><span class="fld-t"><b class="n">2</b><span data-i18n="ed.photo">Main photo</span></span>
             <div class="ed-photos" role="radiogroup" aria-label="Main photo">
-              <button type="button" role="radio" aria-checked="true" class="ph ph1" aria-label="Photo 1"></button>
-              <button type="button" role="radio" aria-checked="false" class="ph ph2" aria-label="Photo 2"></button>
-              <button type="button" role="radio" aria-checked="false" class="ph ph3" aria-label="Photo 3"></button>
+              <button type="button" role="radio" aria-checked="true" class="ph" data-ph="interior"><img src="./img/ed-interior-t.webp" alt="" width="160" height="120" loading="lazy" decoding="async"><span data-i18n="ed.ph1">Interior</span></button>
+              <button type="button" role="radio" aria-checked="false" class="ph" data-ph="coffee"><img src="./img/ed-coffee-t.webp" alt="" width="160" height="120" loading="lazy" decoding="async"><span data-i18n="ed.ph2">Coffee</span></button>
+              <button type="button" role="radio" aria-checked="false" class="ph" data-ph="dish"><img src="./img/ed-dish-t.webp" alt="" width="160" height="120" loading="lazy" decoding="async"><span data-i18n="ed.ph3">Brunch</span></button>
             </div>
           </div>
-          <div class="fld fld-row"><span data-i18n="ed.showPromo">Show promo</span><button type="button" class="sw ed-show" role="switch" aria-checked="true" aria-label="Show promo"><i></i></button></div>
-          <div class="fld fld-row ed-care"><span data-i18n="ed.carePlan">Care plan</span><button type="button" class="sw ed-careSw" role="switch" aria-checked="true" aria-label="Care plan active"><i></i></button></div>
+          <div class="ed-sws">
+            <div class="fld fld-row"><span data-i18n="ed.showPromo">Show promo</span><button type="button" class="sw ed-show" role="switch" aria-checked="true" aria-label="Show promo"><i></i></button></div>
+            <div class="fld fld-row ed-care"><span data-i18n="ed.carePlan">Care plan</span><button type="button" class="sw ed-careSw" role="switch" aria-checked="true" aria-label="Care plan active"><i></i></button></div>
+          </div>
           <p class="ed-paused" role="status" aria-live="polite"></p>
         </div>
-        <div class="ed-phone" aria-label="Preview of the public website" role="img">
-          <div class="pp-notch"></div>
-          <div class="pp-screen">
-            <div class="pp-promo">Happy hour 17:00–19:00 · 2 for 1</div>
-            <div class="pp-photo ph1"></div>
-            <div class="pp-body"><b>Your Café</b><span></span><span></span><em>Book a table</em></div>
-            <div class="pp-live"><i></i><span data-i18n="ed.live">Site online</span></div>
+        <div class="ed-pv">
+          <p class="fld-t ed-pvt"><b class="n">3</b><span data-i18n="ed.preview">Live preview</span></p>
+          <div class="ed-phone" aria-label="Preview of the public website" role="img">
+            <div class="pp-notch"></div>
+            <div class="pp-screen">
+              <div class="pp-nav"><b class="pp-brand">Your Café</b><i></i></div>
+              <div class="pp-promo">Happy hour 17:00–19:00 · 2 for 1</div>
+              <div class="pp-hero"><img class="pp-img" src="./img/ed-interior.webp" alt="" width="560" height="420" loading="lazy" decoding="async">
+                <div class="pp-cap"><b class="pp-name">Your Café</b><span data-i18n="ed.tagline">Specialty coffee &amp; brunch</span></div>
+              </div>
+              <div class="pp-body"><em class="pp-book">Book a table</em>
+                <div class="pp-menu"><span><img src="./img/ed-coffee-t.webp" alt="" width="160" height="120" loading="lazy" decoding="async"><small data-i18n="ed.ph2">Coffee</small></span><span><img src="./img/ed-dish-t.webp" alt="" width="160" height="120" loading="lazy" decoding="async"><small data-i18n="ed.ph3">Brunch</small></span></div>
+              </div>
+              <div class="pp-live"><i></i><span data-i18n="ed.live">Site online</span></div>
+            </div>
           </div>
         </div>
       </div>
