@@ -1,28 +1,29 @@
 <!doctype html>
 <html lang="en" class="no-js">
 <head>
-<meta name="robots" content="noindex, nofollow">
 <meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>RocketNest Design · Modern websites for local businesses in Pattaya</title>
-<meta name="description" content="RocketNest Design rebuilds outdated websites for local businesses in Pattaya as fast, modern, mobile-first sites in Thai and English. Try your new site free before you decide.">
+<title>RocketNest Design · Your old website, relaunched</title>
+<meta name="description" content="RocketNest Design rebuilds outdated business websites as fast, modern, mobile-first sites in your customers' languages. Try your new site free before you decide.">
 <meta name="theme-color" content="#0A0A0B">
 <meta name="color-scheme" content="dark">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="RocketNest Design">
 <meta property="og:title" content="RocketNest Design · Your old website, relaunched">
-<meta property="og:description" content="Modern, mobile-first websites in Thai and English for local businesses in Pattaya. Try yours free.">
-<meta property="og:url" content="https://rocketnestdesign.com/">
-<meta property="og:image" content="https://rocketnestdesign.com/og-image.jpg">
+<meta property="og:description" content="Modern, mobile-first websites in your customers' languages. Try yours free before you decide.">
+<meta property="og:url" content="https://djaysteven.github.io/rocketnest-beta-21a666/">
+<meta property="og:image" content="https://djaysteven.github.io/rocketnest-beta-21a666/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="RocketNest Design logo: a white rocket launching from a blue and white nest">
 <meta property="og:locale" content="en_US">
 <meta property="og:locale:alternate" content="th_TH">
+<meta property="og:locale:alternate" content="nl_BE">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="RocketNest Design · Your old website, relaunched">
-<meta name="twitter:description" content="Modern, mobile-first websites in Thai and English for local businesses in Pattaya. Try yours free.">
-<meta name="twitter:image" content="https://rocketnestdesign.com/og-image.jpg">
+<meta name="twitter:description" content="Modern, mobile-first websites in your customers' languages. Try yours free before you decide.">
+<meta name="twitter:image" content="https://djaysteven.github.io/rocketnest-beta-21a666/og-image.jpg">
 <link rel="icon" href="./favicon.svg" type="image/svg+xml">
 <link rel="icon" href="./favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="./apple-touch-icon.png">
@@ -30,17 +31,17 @@
 <link rel="preload" href="./fonts/unbounded.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="./fonts/sora.woff2" as="font" type="font/woff2" crossorigin>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfessionalService","name":"RocketNest Design","url":"https://rocketnestdesign.com/","logo":"https://rocketnestdesign.com/favicon-512.png","image":"https://rocketnestdesign.com/og-image.jpg","email":"info@rocketnestdesign.com","description":"Modern, mobile-first websites in Thai and English for local businesses in Pattaya.","areaServed":"Pattaya, Thailand","address":{"@type":"PostalAddress","addressLocality":"Pattaya","addressCountry":"TH"},"founder":[{"@type":"Person","name":"Steven"},{"@type":"Person","name":"Peter"}],"knowsLanguage":["en","th"]}
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"RocketNest Design","url":"https://djaysteven.github.io/rocketnest-beta-21a666/","logo":"https://djaysteven.github.io/rocketnest-beta-21a666/favicon-512.png","image":"https://djaysteven.github.io/rocketnest-beta-21a666/og-image.jpg","email":"info@rocketnestdesign.com","description":"Modern, mobile-first websites in your customers' languages. Based in Thailand & Belgium.","founder":[{"@type":"Person","name":"Steven"},{"@type":"Person","name":"Peter"}],"knowsLanguage":["en","th","nl"]}
 </script>
 <script>
   // Decide motion/quality before paint so the preloader & fallback don't flash.
   (function(){var d=document.documentElement;d.classList.remove('no-js');d.classList.add('js');
-  try{var l=new URLSearchParams(location.search).get('lang')||localStorage.getItem('rn-lang');if(l==='th'){d.lang='th';d.classList.add('lang-th')}}catch(e){}
+  try{var l=new URLSearchParams(location.search).get('lang')||localStorage.getItem('rn-lang');if(l==='th'||l==='nl'){d.lang=l;d.classList.add('lang-'+l)}}catch(e){}
   if(matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('rm');
   if(innerWidth<900||matchMedia('(pointer:coarse)').matches)d.classList.add('lite');})();
 </script>
-  <script type="module" crossorigin src="./assets/index-DPnaS34A.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BgSECdKH.css">
+  <script type="module" crossorigin src="./assets/index-CZ_ClkgF.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DIzXBSFO.css">
 </head>
 <body>
 <a class="skip" href="#main" data-i18n="skip">Skip to content</a>
@@ -83,6 +84,7 @@
     <div class="lang" role="group" aria-label="Language">
       <button type="button" data-lang="en" aria-pressed="true">EN</button>
       <button type="button" data-lang="th" aria-pressed="false" lang="th">TH</button>
+      <button type="button" data-lang="nl" aria-pressed="false" lang="nl">NL</button>
     </div>
     <button type="button" class="snd" aria-pressed="false" aria-label="Sound off. Turn ambient sound on" data-cursor="sound">
       <span class="bars"><i></i><i></i><i></i><i></i></span>
@@ -116,9 +118,9 @@
 <section class="sec hero" id="top" data-stage="0" data-name="Nest">
   <div class="wrap hero-grid">
     <div class="hero-copy">
-      <p class="eyebrow" data-i18n="hero.eyebrow">Web design studio · Pattaya, Thailand</p>
+      <p class="eyebrow" data-i18n="hero.eyebrow">Web design studio</p>
       <h1 class="display split" data-i18n="hero.title">Your old website, <em>relaunched.</em></h1>
-      <p class="lede" data-i18n="hero.lede">We rebuild outdated websites for local businesses as fast, modern, mobile-first sites in Thai and English. You try yours free before you decide.</p>
+      <p class="lede" data-i18n="hero.lede">We rebuild outdated business websites as fast, modern, mobile-first sites in your customers' languages. You try yours free before you decide.</p>
       <div class="ctas">
         <a class="btn btn-primary" href="#contact" data-cursor="launch"><span data-i18n="hero.cta1">Start your launch</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         <a class="btn btn-ghost" href="#showcase" data-i18n="hero.cta2">See demo concepts</a>
@@ -136,7 +138,7 @@
     <div class="wrap up-grid">
       <div class="up-copy">
         <p class="eyebrow"><b>01</b> <span data-i18n="up.eyebrow">The old site</span></p>
-        <h2 class="h2 split" data-i18n="up.title">Most local websites were built for a different decade.</h2>
+        <h2 class="h2 split" data-i18n="up.title">Most business websites were built for a different decade.</h2>
         <p class="body" data-i18n="up.body">Tiny text on phones, slow pages, broken links, photos that don't do the place justice. Customers judge you on that screen before they ever walk in.</p>
         <p class="punch" data-i18n="up.punch">So we don't send a quote. We send your new website.</p>
       </div>
@@ -145,16 +147,16 @@
         <div class="mx-stage">
           <div class="mx-old">
             <div class="o-marq"><span>*** WELCOME TO OUR WEBSITE !!! *** BEST PRICE *** WELCOME ***</span></div>
-            <div class="o-title">Your&nbsp;Business&nbsp;Pattaya</div>
+            <div class="o-title">Your&nbsp;Business&nbsp;Online</div>
             <div class="o-row"><div class="o-img"></div><div class="o-txt"><u>Home</u> | <u>Rooms</u> | <u>Contact</u><br>Please click here for more informations about our services and price list. Best view with 1024x768.</div></div>
-            <table class="o-tbl"><tr><td>Price</td><td>Call</td><td>Fax</td></tr><tr><td>..........</td><td>038-xxx</td><td>038-xxx</td></tr></table>
+            <table class="o-tbl"><tr><td>Price</td><td>Call</td><td>Fax</td></tr><tr><td>..........</td><td>012-xxx</td><td>012-xxx</td></tr></table>
             <div class="o-count">Visitors: 004213 · Last update 2014</div>
           </div>
           <div class="mx-new">
             <div class="n-nav"><b></b><span></span><span></span><span></span><em>Book</em></div>
             <div class="n-hero"><div class="n-h">Your Business</div><div class="n-s"></div><div class="n-btns"><i></i><i></i></div></div>
             <div class="n-cards"><i></i><i></i><i></i></div>
-            <div class="n-chip">TH · EN</div>
+            <div class="n-chip">EN · ES · DE</div>
           </div>
           <div class="mx-scan"></div>
         </div>
@@ -171,11 +173,11 @@
     <h2 class="h2 split" data-i18n="sv.title">Everything your business needs to reach orbit.</h2>
     <div class="sv-grid">
       <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="9" y="3" width="14" height="26" rx="3"/><path d="M14 25h4"/></svg></span><h3 data-i18n="sv1.t">Modern, mobile-first websites</h3><p data-i18n="sv1.d">Fast, clean sites built for the phone first, with your real photos, your story and clear contact buttons.</p></article>
-      <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="12"/><path d="M4 16h24M16 4c4 4 4 20 0 24M16 4c-4 4-4 20 0 24"/></svg></span><h3 data-i18n="sv2.t">Thai + English, built in</h3><p data-i18n="sv2.d">Every site has a full Thai / English switch. More languages when you need them.</p></article>
-      <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 7h22v15H13l-6 5v-5H5z"/><path d="M10 13h12M10 17h8"/></svg></span><h3 data-i18n="sv3.t">Bookings, inquiries &amp; chat</h3><p data-i18n="sv3.d">Booking and inquiry forms, plus one-tap WhatsApp, LINE, phone and email. Want to sell online? We build webshops too.</p></article>
+      <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="12"/><path d="M4 16h24M16 4c4 4 4 20 0 24M16 4c-4 4-4 20 0 24"/></svg></span><h3 data-i18n="sv2.t">Multilingual, built in</h3><p data-i18n="sv2.d">Your site speaks your customers' languages, with a clean language switch on every page.</p></article>
+      <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 7h22v15H13l-6 5v-5H5z"/><path d="M10 13h12M10 17h8"/></svg></span><h3 data-i18n="sv3.t">Bookings, inquiries &amp; chat</h3><p data-i18n="sv3.d">Booking and inquiry forms, plus one-tap buttons for chat apps, phone and email. Want to sell online? We build webshops too.</p></article>
       <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M6 26l2-7L21 6l5 5-13 13z"/><path d="M18 9l5 5"/></svg></span><h3 data-i18n="sv4.t">Your own editor</h3><p data-i18n="sv4.d">A private /admin page where you change promos, text and photos yourself.</p></article>
       <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><rect x="4" y="7" width="24" height="18" rx="2"/><circle cx="12" cy="14" r="2.5"/><path d="M4 22l7-6 5 4 4-3 8 6"/></svg></span><h3 data-i18n="sv5.t">Photo upscaling &amp; enhancement</h3><p data-i18n="sv5.d">We sharpen and upscale the photos you already have, so they look great on big, modern screens.</p></article>
-      <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="14" cy="14" r="8"/><path d="M20 20l7 7"/><path d="M11 14l2 2 4-4"/></svg></span><h3 data-i18n="sv6.t">Logo refresh &amp; local SEO basics</h3><p data-i18n="sv6.d">We modernize your existing logo instead of replacing it, set up Thai + English SEO basics and tidy up your Google Business listing.</p></article>
+      <article class="card sv reveal"><span class="sv-ic" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="14" cy="14" r="8"/><path d="M20 20l7 7"/><path d="M11 14l2 2 4-4"/></svg></span><h3 data-i18n="sv6.t">Logo refresh &amp; SEO basics</h3><p data-i18n="sv6.d">We modernize your existing logo instead of replacing it, set up SEO basics in every language and tidy up your Google Business listing.</p></article>
     </div>
   </div>
 </section>
@@ -187,7 +189,7 @@
       <p class="eyebrow"><b>03</b> <span data-i18n="pr.eyebrow">How it works</span></p>
       <h2 class="h2 split" data-i18n="pr.title">From old site to liftoff in four steps.</h2>
       <ol class="steps">
-        <li class="step"><span class="t">T–3</span><h3 data-i18n="pr1.t">Find</h3><p data-i18n="pr1.d">We look for local businesses in Pattaya whose website is holding them back: hotels, restaurants, cafés, clinics, clubs, karting, fitness and more.</p></li>
+        <li class="step"><span class="t">T–3</span><h3 data-i18n="pr1.t">Find</h3><p data-i18n="pr1.d">We look for businesses whose website is holding them back: hotels, restaurants, cafés, clinics, studios, rentals and more.</p></li>
         <li class="step"><span class="t">T–2</span><h3 data-i18n="pr2.t">Rebuild</h3><p data-i18n="pr2.d">We rebuild your site for free as a modern, mobile-first demo, using your real content, photos and logo.</p></li>
         <li class="step"><span class="t">T–1</span><h3 data-i18n="pr3.t">Try it free</h3><p data-i18n="pr3.d">Click through it on your own phone. Not your style? Ask for one free alternative design.</p></li>
         <li class="step"><span class="t">T–0</span><h3 data-i18n="pr4.t">Launch</h3><p data-i18n="pr4.d">Like it? It becomes yours at a competitive price, and we put it live for you.</p></li>
@@ -202,36 +204,66 @@
   <div class="wrap">
     <p class="eyebrow"><b>04</b> <span data-i18n="ba.eyebrow">Before / after</span></p>
     <h2 class="h2 split" data-i18n="ba.title">Same business. New orbit.</h2>
-    <p class="body" data-i18n="ba.body">A real business's current public website next to the demo concept we built for it. Drag to compare.</p>
-    <div class="ba-tabs" role="tablist" aria-label="Choose an example">
-      <button role="tab" aria-selected="true" data-ba="loft">Pattaya Loft Hotel</button>
-      <button role="tab" aria-selected="false" data-ba="scandia">Scandia Jomtien Beach</button>
-      <button role="tab" aria-selected="false" data-ba="maxx">MaxxCentral</button>
+    <p class="body" data-i18n="ba.body">A real business's current public website next to the free demo concept we built for it. Open one to compare up close.</p>
+    <div class="ba-grid">
+      <button type="button" class="ba-card reveal" data-ba="loft" aria-haspopup="dialog" data-cursor="view">
+        <span class="ba-mini">
+          <img class="ba-before" src="./img/ba-loft-old.webp" alt="" width="1280" height="800" loading="lazy" decoding="async">
+          <img class="ba-after" src="./img/ba-loft-new.webp" alt="" width="1280" height="800" loading="lazy" decoding="async">
+          <span class="ba-tag ba-tag-b" data-i18n="ba.before">Before</span><span class="ba-tag ba-tag-a" data-i18n="ba.after">After</span>
+          <span class="ba-split" aria-hidden="true"></span>
+        </span>
+        <span class="ba-cap"><span><b>Loft Hotel</b><span data-i18n="ba.k1">Boutique hotel</span></span><span class="ba-zoom"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/></svg><span class="sr" data-i18n="ba.zoom">Enlarge comparison</span></span></span>
+      </button>
+      <button type="button" class="ba-card reveal" data-ba="scandia" aria-haspopup="dialog" data-cursor="view">
+        <span class="ba-mini">
+          <img class="ba-before" src="./img/ba-scandia-old.webp" alt="" width="1280" height="800" loading="lazy" decoding="async">
+          <img class="ba-after" src="./img/ba-scandia-new.webp" alt="" width="1280" height="800" loading="lazy" decoding="async">
+          <span class="ba-tag ba-tag-b" data-i18n="ba.before">Before</span><span class="ba-tag ba-tag-a" data-i18n="ba.after">After</span>
+          <span class="ba-split" aria-hidden="true"></span>
+        </span>
+        <span class="ba-cap"><span><b>Scandia Beach</b><span data-i18n="ba.k2">Beach hotel</span></span><span class="ba-zoom"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/></svg><span class="sr" data-i18n="ba.zoom">Enlarge comparison</span></span></span>
+      </button>
+      <button type="button" class="ba-card reveal" data-ba="maxx" aria-haspopup="dialog" data-cursor="view">
+        <span class="ba-mini">
+          <img class="ba-before" src="./img/ba-maxx-old.webp" alt="" width="1280" height="800" loading="lazy" decoding="async">
+          <img class="ba-after" src="./img/ba-maxx-new.webp" alt="" width="1280" height="800" loading="lazy" decoding="async">
+          <span class="ba-tag ba-tag-b" data-i18n="ba.before">Before</span><span class="ba-tag ba-tag-a" data-i18n="ba.after">After</span>
+          <span class="ba-split" aria-hidden="true"></span>
+        </span>
+        <span class="ba-cap"><span><b>MaxxCentral</b><span data-i18n="ba.k3">Serviced residences</span></span><span class="ba-zoom"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/></svg><span class="sr" data-i18n="ba.zoom">Enlarge comparison</span></span></span>
+      </button>
     </div>
+    <p class="fine" data-i18n="ba.note">Before: their current public website (screenshot, Oct 2026). After: our demo concept. Not client projects.</p>
+  </div>
+</section>
+
+<dialog class="ba-modal" aria-labelledby="ba-mt">
+  <div class="ba-mbox">
+    <div class="ba-mhead"><h3 id="ba-mt">Loft Hotel</h3><button type="button" class="ba-close" aria-label="Close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
     <div class="ba-frame" data-cursor="drag">
-      <div class="ba-chrome"><i></i><i></i><i></i></div>
       <div class="ba-view" style="--x:50%">
-        <img class="ba-before" src="./img/ba-loft-old.webp" alt="Pattaya Loft Hotel's current public website" width="1280" height="800" loading="lazy" decoding="async">
-        <img class="ba-after" src="./img/ba-loft-new.webp" alt="Our demo concept for Pattaya Loft Hotel" width="1280" height="800" loading="lazy" decoding="async">
+        <img class="ba-before" src="./img/ba-loft-old.webp" alt="" width="1280" height="800" decoding="async">
+        <img class="ba-after" src="./img/ba-loft-new.webp" alt="" width="1280" height="800" decoding="async">
         <span class="ba-tag ba-tag-b" data-i18n="ba.before">Before</span>
         <span class="ba-tag ba-tag-a" data-i18n="ba.after">After</span>
         <div class="ba-handle" aria-hidden="true"><span><svg viewBox="0 0 24 24"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span></div>
         <input class="ba-range" type="range" min="0" max="100" value="50" step="0.5" aria-label="Compare before and after">
       </div>
     </div>
-    <p class="fine" data-i18n="ba.note">Left: their current public website (screenshot, Oct 2026). Right: our demo concept. Not a client project.</p>
+    <p class="fine ba-mhint" data-i18n="ba.drag">Drag the handle to compare. Press Esc to close.</p>
   </div>
-</section>
+</dialog>
 
 <!-- 05 SHOWCASE -->
 <section class="sec showcase" id="showcase" data-stage="5" data-name="Cruise">
-  <div class="sticky">
+  <div class="sc-in">
     <div class="wrap sc-head">
       <p class="eyebrow"><b>05</b> <span data-i18n="sc.eyebrow">Demo concepts</span></p>
-      <h2 class="h2 split" data-i18n="sc.title">Demos we built for real Pattaya businesses.</h2>
+      <h2 class="h2 split" data-i18n="sc.title">Demos we built for real businesses.</h2>
       <p class="body" data-i18n="sc.body">Free demo concepts, made to show each business what its website could be. They are concepts, not paying clients.</p>
     </div>
-    <div class="sc-track" tabindex="0" aria-label="Demo concepts, scroll sideways">
+    <div class="sc-track" tabindex="0" aria-label="Demo concepts">
       <div class="sc-rail"></div>
     </div>
   </div>
@@ -246,7 +278,7 @@
       <p class="body" data-i18n="ed.body">Every site comes with a hidden /admin editor. Change your promo, text and photos yourself, from your phone, in minutes. No developer needed.</p>
       <ul class="ticks">
         <li data-i18n="ed.l1">Promos and announcements</li>
-        <li data-i18n="ed.l2">Text in Thai and English</li>
+        <li data-i18n="ed.l2">Text in every language</li>
         <li data-i18n="ed.l3">Photos</li>
         <li data-i18n="ed.l4">Backups, fixes and updates by us</li>
       </ul>
@@ -290,7 +322,7 @@
   <div class="wrap">
     <p class="eyebrow"><b>07</b> <span data-i18n="ab.eyebrow">About us</span></p>
     <h2 class="h2 split" data-i18n="ab.title">Two founders. One launchpad.</h2>
-    <p class="body ab-body" data-i18n="ab.body">RocketNest Design is Steven and Peter, a small web studio based in Pattaya, Thailand. We build every demo for one specific business, with its real content, and you only pay if you love the result.</p>
+    <p class="body ab-body" data-i18n="ab.body">RocketNest Design is Steven and Peter, a small web studio based in Thailand &amp; Belgium. We build every demo for one specific business, with its real content, and you only pay if you love the result.</p>
     <div class="crew">
       <article class="card crew-card reveal" data-tilt>
         <div class="crew-av" aria-hidden="true">S</div>
@@ -317,7 +349,7 @@
         <li><span data-i18n="ct.general">General</span><a href="mailto:info@rocketnestdesign.com">info@rocketnestdesign.com</a></li>
         <li><span>Steven</span><a href="mailto:steven@rocketnestdesign.com">steven@rocketnestdesign.com</a></li>
         <li><span>Peter</span><a href="mailto:peter@rocketnestdesign.com">peter@rocketnestdesign.com</a></li>
-        <li><span data-i18n="ct.base">Base</span><b data-i18n="ct.where">Pattaya, Thailand</b></li>
+        <li><span data-i18n="ct.base">Based in</span><b data-i18n="ct.where">Thailand &amp; Belgium</b></li>
       </ul>
     </div>
   </div>
@@ -328,7 +360,7 @@
 <footer class="ftr sec-end" data-stage="9" data-name="Launch">
   <div class="wrap ftr-in">
     <img src="./img/wordmark.webp" alt="RocketNest Design" width="150" height="35" loading="lazy">
-    <p data-i18n="ft.legal">© 2026 RocketNest Design · Pattaya, Thailand</p>
+    <p data-i18n="ft.legal">© 2026 RocketNest Design · Based in Thailand &amp; Belgium</p>
     <p class="fine" data-i18n="ft.note">Demo concepts shown are unsolicited concept designs for real businesses, not client work. Business names belong to their owners.</p>
   </div>
 </footer>
